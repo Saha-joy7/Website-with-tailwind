@@ -8,24 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icons/Frame.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-        *{
-            font-family: 'Bebas Neue', sans-serif;
-            font-family: 'Montserrat', sans-serif;
-            font-family: 'Roboto', sans-serif;
-        }
+       
+        
     </style>
 </head>
-<body class="max-w-5xl mx-20 justify-center">
-    <header>
-        <nav class=" mb-4 mt-3 font-Montserrat " >
+<body class=" bg-white">
+    <header class="bg-[#FFFBF0]">
+        <!-- nav section -->
+        <nav class="max-w-5xl mx-20 justify-center box-border  mb-4 mt-3 font-Montserrat " >
             <div class="md:flex md:justify-between items-center">
-                <div class="flex ml-14">
+                <div class="flex md:ml-0 ml-14">
                 <img src="./icons/Frame.png" alt="" class="w-5">
-                <h4 class="text-sm"><span>Penguin</span> Fashion</h4>
+                <h4 class="text-sm"><span class="text-[A4BC46]">Penguin</span> Fashion</h4>
             </div>
             <div>
-                <ul class="mt-6 text-xs gap-10 flex ">
+                <ul class="mt-6 text-xs gap-2 md:gap-10 flex  ">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Product</a></li>
                     <li><a href="#">about Us</a></li>
@@ -36,11 +38,12 @@
         </nav>
         <section>
             <div >
-                <div class=" md:flex items-center mt-10 ">
-                    <div class="md:w-3/5">
-                        <h3 class="font-Bebas Neue text-[#FABE4C] font-normal text-4xl md:text-6xl">Be the Penguins <br>
+                <!-- banner section -->
+                <div class="max-w-5xl mx-20 justify-center box-border  md:flex items-center mt-10 ">
+                    <div class="md:w-3/5 ">
+                        <h3 class="font-Bebas Neue text-[#FABE4C] font-normal text-4xl md:text-6xl ">Be the Penguins <br>
                             of Winter</h3>
-                        <p class="font-Bebas Neue text-[#3E3E3E] md:text-xs font-normal">Lorem Ipsum is simply dummy text of the printing 
+                        <p class="font-Bebas Neue text-[#3E3E3E] md:text-xs font-normal md:w-1.8/5">Lorem Ipsum is simply dummy text of the printing 
                             and typesetting industry.</p>
                         <div class="flex items-center p-3   bg-[#85A019]  rounded-5 w-max">
                             <img src="./icons/shopping-cart 1.png" alt="" class=" w-3.5 h-3.5">
@@ -52,8 +55,115 @@
             </div>
         </section>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <!-- women collection -->
+
+        <section class="max-w-5xl mx-20 justify-center box-border ">
+            <h3 class="text-4xl font-normal font-bebas text-[#363958] mt-10 mb-8">W0Man Jacket</h3>
+            <div class="space-y-5 lg:space-x-9 grid lg:grid-cols-3 mx-auto  ">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray] p-5">
+                      <img src="/images//jacket-1.png" alt="jacket-1" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Yellow Coat Jacket </h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray]">
+                      <img src="/images//jacket-2.png" alt="jacket-2" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ladies Jacket </h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray]">
+                      <img src="/images//jacket-3.png" alt="jacket-3" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Woman Leather Jacket</h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        <!-- men collection -->
+        <section class="max-w-5xl mx-20 justify-center box-border ">
+            <h3 class="text-4xl font-normal font-bebas text-[#363958] mt-10 mb-8">Man Jacket</h3>
+            <div class=" space-y-5 lg:space-x-9 grid lg:grid-cols-3 mx-auto ">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray] p-5">
+                      <img src="/images//jacket-4.png" alt="jacket-4" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Snowboard Jacket Mens</h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray]">
+                      <img src="/images//jacket-5.png" alt="jacket-5" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Man Leather Jackets</h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card  bg-base-100 shadow-xl">
+                    <figure class=" bg-[lightgray]">
+                      <img src="/images//jacket-6.png" alt="jacket-6" class="rounded-xl w-52" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Man Casual Jackets</h2>
+                      <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                      <div class="card-actions flex items-center justify-between"> 
+                        <h1 class="text- font-black text-2xl font-roboto text-[#FABE4C]">$234</h1>
+                        <button class="btn btn-primary bg-[#85A019]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        
+    </main>
+    
+    </footer>
     
 </body>
 </html>
+
+
+
+
+
+
+
